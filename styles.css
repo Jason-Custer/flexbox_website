@@ -1,4 +1,118 @@
-header {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    background-color: #344E41;
+    color: white;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #344E41;
+    color: white;
+    padding: 100px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.second-container img {
+    border: 2px solid #588157;
+    border-radius: 10px;
+}
+
+.third-container {
+    background-color: #DAD7CD;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.third-container h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+
+}
+
+.third-container p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: end;
+}
+
+.fourth-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A3B18A;
+    color: white;
+    margin: 75px;
+    padding: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #344E41;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;  
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #A3B18A;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+
+.first-container button {
+    border-style: none;
+}
+
+.fourth-container button {
+    border: 2px solid white;
+}
+
+.left-side {
+    max-width: 350px;
+}
+
+.units {
+    width: 150px;
 }
